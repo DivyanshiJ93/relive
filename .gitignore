@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env
+.venv/
+venv/
+dist/
+build/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Project: keep large binaries out of git
+/models/
+assets/outputs/
+app/drivers/*.mp4
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.npz
+*.npy
+
+# Logs & temp
+logs/
+tmp/
+.cache/
