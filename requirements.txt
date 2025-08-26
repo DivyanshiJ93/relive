@@ -1,0 +1,28 @@
+# Core
+numpy
+opencv-python
+Pillow
+tqdm
+requests
+scipy
+matplotlib
+pyyaml
+loguru
+coloredlogs
+typing-extensions
+
+# Web/UI
+streamlit
+ffmpeg-python
+imageio
+imageio-ffmpeg
+
+# Face/Restoration/SR helpers (thin wrappers; heavy repos are cloned in the notebook)
+facexlib
+gfpgan
+realesrgan
+basicsr
+
+# PyTorch (un-pinned; Colab picks the right CUDA build)
+torch
+torchvision
